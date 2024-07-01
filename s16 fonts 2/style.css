@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&family=Tiro+Devanagari+Hindi:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&family=Tiro+Devanagari+Hindi:ital@1&family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&family=Noto+Serif+Kannada:wght@100..900&family=Tiro+Devanagari+Hindi:ital@1&family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
+img{
+    width:400px;
+    display: inline-block;
+    margin: 10px;
+}
+p{
+    display: inline-block;
+    width: 1000px;
+    height: 300px;
+    font-size: 25px;
+    overflow: auto;
+}
+@font-face{
+    font-family: "tamil";
+    src:url("./fonts/Alankaram\ Plain.otf")
+}
+@font-face{
+    font-family: "telugu";
+    src:url("./fonts/Gurajada.ttf")
+}
+@font-face{
+    font-family: "Hindi";
+    src:url("./fonts/Mangal\ Regular.ttf")
+}
+@font-face{
+    font-family: "bangla";
+    src:url("./fonts/SutonnyMJ\ Regular.ttf")
+}
+@font-face{
+    font-family: "pubjabi";
+    src:url("./fonts/Adhiapak\ Book\ Book.ttf")
+}
+
+#telugu{
+    font-family: "telugu";
+}
+#tamil{
+    font-family: "tamil";
+}
+#hindi1{
+    font-family: "hindi";
+}
+#gujathi{
+    font-family: Noto Sans Gujarati;
+}
+#bangla{
+    font-family: "bangla";
+}
+#urdu{
+    font-family: "Noto Nastaliq Urdu", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+#hindi{
+    font-family: "Tiro Devanagari Hindi", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+#pubjabi{
+    font-family: "pubjabi";
+
+}
+#marathi{
+    font-family: "Tiro Devanagari Marathi", serif;
+  font-weight: 400;
+  font-style: italic;
+
+}
+#kannada{
+    font-family: "Noto Serif Kannada", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
